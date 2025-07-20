@@ -13,9 +13,9 @@
     <jbehave.web.version>3.6-SNAPSHOT</jbehave.web.version>
     <jbehave.site.version>3.3</jbehave.site.version>
     <fluent.selenium.version>1.14.5</fluent.selenium.version>
-    <selenium.version>2.48.2</selenium.version>
+    <selenium.version>2.53.0</selenium.version>
     <ignore.failures>true</ignore.failures>
-    <meta.filter></meta.filter>
+    <meta.filter/>
     <threads>1</threads>
     <skip>false</skip>
     <stories>**/EtsyDotComStories.java</stories>
@@ -149,7 +149,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore></ignore>
+                    <ignore/>
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -162,7 +162,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore></ignore>
+                    <ignore/>
                   </action>
                 </pluginExecution>
               </pluginExecutions>
@@ -238,7 +238,7 @@
               <includes>
                 <include>${stories}</include>
               </includes>
-              <excludes />
+              <excludes/>
               <ignoreFailureInStories>${ignore.failures}</ignoreFailureInStories>
               <ignoreFailureInView>${ignore.failures}</ignoreFailureInView>
               <threads>${threads}</threads>
@@ -324,7 +324,7 @@
                   <includes>
                     <include>${stories}</include>
                   </includes>
-                  <excludes />
+                  <excludes/>
                 </configuration>
                 <goals>
                   <goal>run-stories-with-annotated-embedder</goal>
